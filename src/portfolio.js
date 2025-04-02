@@ -143,7 +143,7 @@ const educationInfo = {
       logo: require("./assets/images/intiLogo.png"),
       subHeader: "Diploma in Computer Science",
       duration: "April 2020 - Dec 2021",
-      desc: "3.4 CGPA",
+      desc: "3.5 CGPA",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -186,7 +186,7 @@ const workExperiences = {
       date: "January 2025 – April 2025",
       desc: '"Service From the Heart"',
       descBullets: [
-        "Collaborate with Web Team to design, develop and test extensively software solutions using React framework, PHP, Javascript and MySQL stack.",
+        "Collaborate with Web Development Team to design, develop and test extensively software solutions using React framework, PHP, Javascript and MySQL stack.",
         "Developing and refining internal tools to enhance data management and user interactions.",
         "Assisting in optimizing system processes to improve performance and scalability.",
         "Implementing dynamic features to enhance user experience and workflow automation.",
@@ -223,15 +223,27 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "EMPLOYERS AND COMPANIES THAT I CONTRIBUTED TO THEIR SYSTEM SOLUTIONS",
+  subtitle: "EMPLOYERS PROJECTS AND COMPANIES THAT I CONTRIBUTED TO THEIR SYSTEM SOLUTIONS",
   projects: [
     {
       image: require("./assets/images/dhlLogo.webp"),
-      projectName: "DHL",
-      projectDesc: "AI Chatbot for DHL",
+      projectName: "AI Chatbot Assistant for Project Hardware Cost Estimation | DHL IT Services (ITS)",
+      projectSubtitle: "April - November 2024",
+      projectDesc: [
+        "Developed an interactive AI chatbot assistant interface using React framework, Flask and Python stack.",
+        "Designed and deployed secure database structures using Firebase, ensuring data integrity and scalability.",
+        "Integrated AI-powered responses by implementing and training OpenAI (GPT 4o-mini) model with LlamaIndex for analyzing hardware data.",
+        "Ensured responses are fast and accurate, and the ability to provide intelligent recommendations based on specific user needs and contexts.",
+        "Collaborated with the DHL ITS team in a 2-week Agile sprint cycle, iterating on product solutions for enhanced performance.",
+        "Prepared comprehensive documentations, user guides and presentations to align stakeholders and support smooth implementation."
+      ],
       footerLink: [
         {
-          name: "Watch Final Presentation",
+          name: "Video Demonstration",
+          url: "https://drive.google.com/file/d/1TN5lVzQGc7CLeu0PNpfxVHjUFlStidBQ/view?usp=sharing"
+        },
+        {
+          name: "Final Video Presentation",
           url: "https://drive.google.com/file/d/1Qbnn1i8_zKlFsh2PHdkLIMjRjVR88-cQ/view?usp=sharing"
         }
         //  you can add extra buttons here.

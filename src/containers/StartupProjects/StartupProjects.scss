@@ -16,6 +16,18 @@
   color: $cardSubtitle;
   font-size: 17px;
   line-height: 1.5rem;
+  font-weight: 700;
+}
+.card-desc {
+  font-size: 17px;
+  line-height: 1.6rem;
+  margin-top: 8px;
+  padding-left: 20px;
+  color: $cardSubtitle;
+}
+.card-desc li {
+  margin-bottom: 6px;
+  list-style-type: none;
 }
 .project-card {
   display: flex;

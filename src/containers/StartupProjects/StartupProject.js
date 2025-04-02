@@ -59,12 +59,19 @@ export default function StartupProject() {
                       {project.projectName}
                     </h5>
                     <p
-                      className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                      }
+                      className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}
                     >
-                      {project.projectDesc}
+                      {project.projectSubtitle}
                     </p>
+
+                    <ul
+                     className={isDark ? "dark-mode card-desc" : "card-desc"}
+                    >
+                      {project.projectDesc.map((desc,index) => (
+                        <li key={index}>{desc}</li>
+                      ))}
+                    </ul>
+
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
