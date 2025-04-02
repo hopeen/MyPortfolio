@@ -52,6 +52,10 @@
   background-color: $twitter;
 }
 
+.whatsapp i {
+  background-color: $whatsapp;
+}
+
 .medium i {
   background-color: $medium;
 }
@@ -76,6 +80,7 @@
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover,
+.whatsapp i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
 .medium i:hover {
