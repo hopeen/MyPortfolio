@@ -23,7 +23,7 @@ const greeting = {
   username: "Tan Hoe Ping",
   title: "Hi, I'm Hoe Ping",
   subTitle: emoji(
-    "An aspiring Full Stack Software Developer 🚀 having 1 year of experience in building extensive Web solutions using JavaScript / Reactjs / Nodejs / React Native and endless cool libraries and frameworks."
+    "An aspiring Full Stack Software Developer 🚀 having 1 year of experience in building extensive Web solutions using JavaScript / Reactjs / Nodejs / React Native and endless libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -54,8 +54,9 @@ const skillsSection = {
   subTitle: "INSPIRED FULL STACK DEVELOPER WHO WISHES TO MASTER EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop interactive Front-End / User Interfaces for your web applications"),
-    emoji("⚡ Progressive Web Applications ( PWA )"),
-    emoji("⚡ Integration of third party services such as Firebase & AWS")
+    emoji("⚡ Progressive Web Applications (PWA) and Single Page Applications (SPA)"),
+    emoji("⚡ Integration of Back-End third party services such as Firebase & AWS"),
+    emoji("⚡ Strong eagerness to learn and master various frameworks and technology stacks")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
